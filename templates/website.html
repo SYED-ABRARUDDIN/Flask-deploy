@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prediction</title>
+    </head>
+    
+    <body  bgcolor=#0e9229>
+        <center>
+        <h1> CROP YIELD PREDICTION</h1><br>
+        <form name="form", method="POST", style="text-align: center;">
+            <b> 
+            <br>
+            Temperature: <input type="number" name="Temperature", placeholder="Enter Temperature" required/>
+            <br><br>
+            Soil Moisture: <input type="number" name="Soil", placeholder="Enter Moisture" required/>
+            <br><br>
+            Humidity: <input type="number" name="Humidity", placeholder="Enter Humidity" required/>
+            <br><br>
+            Area: <input type="number" name="Area", placeholder="Enter Area" required/>
+            <br><br></b>
+            <button>FORECAST YIELDS</button>
+        </form>
+        <p style="text-align: center;">{{ output }}</p>
+        </center>
+    </body>
+</html>
